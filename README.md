@@ -1,11 +1,4 @@
 # firstlp
-$ mkdir github
-$ cd github
-$ mkdir firstlp
-$ cd firstlp
-$ git init
-
-$ vi pushtest.txt
-git add index.html
-
-$ git commit -m “pushコマンドの確認”
+git add Programing/firstlp/index.html  # 変更を記録するファイルを選択
+git commit -m "update index.html" # 変更点を記録
+git push origin master # 変更をリモートリポジトリに反映
